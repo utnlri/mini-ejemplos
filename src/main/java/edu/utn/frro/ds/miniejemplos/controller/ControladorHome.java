@@ -1,4 +1,4 @@
-package edu.utn.frro.ds.repuestos.controller;
+package edu.utn.frro.ds.miniejemplos.controller;
 
 
 import org.springframework.stereotype.Controller;
