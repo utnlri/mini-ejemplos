@@ -32,3 +32,19 @@ Ver detalles en Evernote "UTDC013 - DS Spring 2020::Programar Mini-Ejemplos"
 7. Deploy en Heroku (ver URL más arriba)
 
 [1/5/2020 FIN]
+
+[2/5/2020 LRI] Tareas realizadas: 
+1. Se trabajó a nivel de Workspace de CHE (lo que no impacta en Github)
+    + Back up de Devfile (ver Q:\3-UNIV\UTN_DS\DS-2020\Spring_LRI-2019-y-2020)
+    + Pruebas de crear nuevo workspace en base a Devfile
+    + Comandos (tasks) de Theia para ejecutar la app Sprinboat en CHE
+    + Agregar los comandos al Devfile para que sean persistentes a nivel workspace
+    + Ver detalles de lo relaizado en "UTDC013 - DS Spring 2020::Programar Mini-Ejemplos"
+
+[2/5/2020 FIN]
+
+[3/5/2020 LRI] Tareas realizadas: 
+1. Se crea branch DEV
+2. Se configura CHE para usar DEV
+
+[2/5/2020 FIN]
