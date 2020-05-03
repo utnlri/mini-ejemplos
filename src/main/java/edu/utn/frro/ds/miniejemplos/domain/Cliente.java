@@ -12,15 +12,17 @@ public class Cliente {
 	private Long idCliente;
 	private String nombre;
 	private String apellido;
+    private String categoria; // La categoría puede ser MAY o MIN
 
 	public Cliente() {
 		
 	} 
 	// Esto en Java equivale a un Create, seguido de un inicializar con los argumentos nombre y apellido
 	// Como se configira el ID del Cliente con @GeneratedValue el IDserá seteado por el DAO
-	public Cliente( String arg_nombre, String  arg_apellido) {
+	public Cliente( String arg_nombre, String  arg_apellido, String arg_categoria) {
 		this.nombre=arg_nombre;
 		this.apellido=arg_apellido;
+        this.categoria=arg_categoria;
 	}
 	public Long getIdCliente() {
 		return this.idCliente;
@@ -31,4 +33,8 @@ public class Cliente {
 	public String getApellido() {
 		return this.apellido;
 	}
+    public String getCategoria() {
+		return this.categoria;
+	}
+}
 	
