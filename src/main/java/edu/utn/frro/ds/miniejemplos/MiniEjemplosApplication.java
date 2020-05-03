@@ -20,6 +20,7 @@ public class MiniEjemplosApplication {
 		SpringApplication.run(MiniEjemplosApplication.class, args);
 	}
 
+    // Modif #1 - Se agrega cargarDatos, creando contenido en la tabla Cliente
     @Bean
 	public CommandLineRunner cargarDatos() { 
 		return (args) -> {
