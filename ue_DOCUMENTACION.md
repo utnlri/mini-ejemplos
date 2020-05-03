@@ -50,5 +50,6 @@ Ver detalles en Evernote "UTDC013 - DS Spring 2020::Programar Mini-Ejemplos"
     + Cliente
     + ClienteDAO
     + home.html (Modif)
+    + ControladorEjJPQL
 
 [2/5/2020 FIN]
