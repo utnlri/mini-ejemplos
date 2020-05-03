@@ -46,5 +46,9 @@ Ver detalles en Evernote "UTDC013 - DS Spring 2020::Programar Mini-Ejemplos"
 [3/5/2020 LRI] Tareas realizadas: 
 1. Se crea branch DEV
 2. Se configura CHE para usar DEV
+3. Se agregan componentes para ejemplos JPQL con entidad Cliente
+    + Cliente
+    + ClienteDAO
+    + home.html (Modif)
 
 [2/5/2020 FIN]
