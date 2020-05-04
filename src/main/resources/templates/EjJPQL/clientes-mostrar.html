@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<!-- listarPedidos.html ==> muestra una lista de clientes pasada como argumento: colClientes 
+                            que es el resultado de una consulta JPQL
+    [LRI 3/5/2020 - UTDC013]   -->
+
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Mini Ejemplos Spring - DS - UTN FRRo</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+    	
+	
+    <h1>Ejemplos JPQL - VIEW Mostrar Clientes</h1>
+    <!--
+    <p><span style="color:red"> Fuera de Alcance del Enunciado -> Se usa para ver los pedidos registrados </span></p> 
+     -->
+     <p>Sintaxis de la Consulta Usada :</p> 
+     <p style="color:red" th:text="' ==> ' + ${sintaxisConsultaUsada} " /> <!-- Este mensaje muestra la variable sintaxisConsultaUsada pasada por el Controller -->
+    
+    <div th:if="${colClientes.empty}" class="alert alert-warning">
+			La consulta no devolvió ningún cliente.
+    </div>
+    <div th:if="${!colClientes.empty}" class="alert alert-warning">
+			<b><u>Lista de Clientes que devolvió la consulta</u></b> 
+    </div>
+     <div class="form-group">
+				  <table class="table table-hover table-striped">
+				    <thead>
+				      <tr>
+				      	<th>idCliente</th>				      	
+				      	<th>Nombre</th>
+				        <th>Apellido</th>
+				      	<th>Categoría</th>			        
+				      </tr>
+				    </thead>
+				    <tbody>
+				      <tr th:each="c: ${colClientes}">
+				       <td align="center" th:text="${c.getIdCliente()}"></td>				       
+					   <td  th:text="${c.getNombre()}"></td>				       					  
+				       <td  th:text="${c.getApellido()}"></td>				       					  
+				       <td  th:text="${c.getCategoria()}"></td>
+					   
+					</tr>
+				    </tbody>
+				  </table>
+				   
+			  </div>
+			  
+			  <p><p><a href="/" class="btn btn-default" role="button">Volver</a></p></p>
+			  
+			  
+		
+</body>
+</html>
