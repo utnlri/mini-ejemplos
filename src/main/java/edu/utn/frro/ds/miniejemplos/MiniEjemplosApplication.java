@@ -19,8 +19,7 @@ import edu.utn.frro.ds.miniejemplos.dao.ClienteDAO;
 
 @SpringBootApplication
 public class MiniEjemplosApplication {
-
-    private ClienteDAO cDao; // Modif #1 - Var Instancia (rol) cdao --> permite acceder al ClienteDAO
+    @Autowired private ClienteDAO cDao; // Modif #1 - Var Instancia (rol) cdao --> permite acceder al ClienteDAO
 
 	public static void main(final String[] args) {
 		SpringApplication.run(MiniEjemplosApplication.class, args);
@@ -40,8 +39,7 @@ public class MiniEjemplosApplication {
 			// Grabar los 3 objetos con el DAO
 			cDao.save(l_cte_1);
 			cDao.save(l_cte_2);
-			cDao.save(l_cte_3);
-			
+			cDao.save(l_cte_3);			
 						
 		};
     }
