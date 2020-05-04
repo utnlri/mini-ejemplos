@@ -11,7 +11,7 @@
 <body>
     	
 	
-    <h1>>Ejemplos JPQL - VIEW Mostrar Clientes</h1>
+    <h1>Ejemplos JPQL - VIEW Mostrar Clientes</h1>
     <!--
     <p><span style="color:red"> Fuera de Alcance del Enunciado -> Se usa para ver los pedidos registrados </span></p> 
      -->
@@ -26,17 +26,17 @@
 				    <thead>
 				      <tr>
 				      	<th>idCliente</th>				      	
-				      	<th>Nombre Cliente</th>
-				        <th>Apellido Cliente</th>
+				      	<th>Nombre</th>
+				        <th>Apellido</th>
 				      	<th>Categoría</th>			        
 				      </tr>
 				    </thead>
 				    <tbody>
 				      <tr th:each="c: ${colClientes}">
 				       <td align="center" th:text="${c.getIdCliente()}"></td>				       
-					   <td  th:text="${c.getCliente().getNombre()}"></td>				       					  
-				       <td  th:text="${c.getCliente().getApellido()}"></td>				       					  
-				       <td width="30%"    th:text="${c.getCategoria()}"></td>
+					   <td  th:text="${c.getNombre()}"></td>				       					  
+				       <td  th:text="${c.getApellido()}"></td>				       					  
+				       <td  th:text="${c.getCategoria()}"></td>
 					   
 					</tr>
 				    </tbody>
