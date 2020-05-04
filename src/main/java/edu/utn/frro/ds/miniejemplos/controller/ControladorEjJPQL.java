@@ -21,6 +21,8 @@ public class ControladorEjJPQL {
 	@RequestMapping("/EjJPQL/clientes_listarTodos") // indica el path en la url web
 	public String clientes_listarTodos(Model model) {
 		Collection<Cliente> l_colClientes = cDao.findAll(); // Recupera todos los clientes
+
+        model.addAttribute("sintaxisConsultaUsada", "cDao.findAll()");	// Se coloca por si hay que hacer algún debug
 		model.addAttribute("colClientes", l_colClientes); // Cargar en el modelo que se envía a la vista la colección de colClientess
 		return "EjJPQL/clientes-mostrar"; // nombre de la vista que se debe cargar --> cargará la página resources/templates/EjJPQL/clientes-mostrar.html
 	}

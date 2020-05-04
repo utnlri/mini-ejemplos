@@ -15,6 +15,9 @@
     <!--
     <p><span style="color:red"> Fuera de Alcance del Enunciado -> Se usa para ver los pedidos registrados </span></p> 
      -->
+     <p>Sintaxis de la Consulta Usada :</p> 
+     <p style="color:red" th:text="' ==> ' + ${sintaxisConsultaUsada} " /> <!-- Este mensaje muestra la variable sintaxisConsultaUsada pasada por el Controller -->
+    
     <div th:if="${colClientes.empty}" class="alert alert-warning">
 			La consulta no devolvió ningún cliente.
     </div>

@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: edu.utn.frro.ds.miniejemplos.MiniEjemplosApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.12 s - in edu.utn.frro.ds.miniejemplos.MiniEjemplosApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.09 s - in edu.utn.frro.ds.miniejemplos.MiniEjemplosApplicationTests
