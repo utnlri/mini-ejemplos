@@ -31,7 +31,8 @@
 				      	<th>idCliente</th>				      	
 				      	<th>Nombre</th>
 				        <th>Apellido</th>
-				      	<th>Categoría</th>			        
+				      	<th>Categoría</th>
+                        <th>Límite de Crédito</th>			        
 				      </tr>
 				    </thead>
 				    <tbody>
@@ -40,7 +41,7 @@
 					   <td  th:text="${c.getNombre()}"></td>				       					  
 				       <td  th:text="${c.getApellido()}"></td>				       					  
 				       <td  th:text="${c.getCategoria()}"></td>
-					   
+					   <td align="right"  th:text="${c.getLimiteCredito()}"></td>
 					</tr>
 				    </tbody>
 				  </table>
