@@ -18,7 +18,7 @@ public class Cliente {
     private String nombre;
     private String apellido;
     private String categoria; // La categoría puede ser MAY o MIN
-    private Float limiteCredito; // Modif #1
+    private Double limiteCredito; // Modif #1
 
     public Cliente() {
 
@@ -28,7 +28,7 @@ public class Cliente {
     // argumentos nombre y apellido
 	// Como se configira el ID del Cliente con @GeneratedValue el IDserá seteado por el DAO
     public Cliente(  String arg_nombre,  String arg_apellido, 
-                     String arg_categoria,  Float arg_limiteCredito ) { // Modif #1 - Se agrega arg_limiteCredito 
+                     String arg_categoria,  Double arg_limiteCredito ) { // Modif #1 - Se agrega arg_limiteCredito 
 		this.nombre=arg_nombre;
 		this.apellido=arg_apellido;
         this.categoria=arg_categoria;
@@ -46,7 +46,7 @@ public class Cliente {
     public String getCategoria() {
 		return this.categoria;
     }
-        public Float getLimiteCredito() { // Modif #1 - se agrega este método
+        public Double getLimiteCredito() { // Modif #1 - se agrega este método
         return limiteCredito;
     }
 
