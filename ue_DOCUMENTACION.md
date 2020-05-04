@@ -57,11 +57,12 @@ Ver detalles en Evernote "UTDC013 - DS Spring 2020::Programar Mini-Ejemplos"
 
 =====
 
-5. Se agrea funcionalidad para ejemplo getOne() (Buscar Cliente x ID)
+5. Se agrea funcionalidad para ejemplo getOne() (Buscar Cliente x ID), y Select (Buscar Cliente x Categoria Fija)
      + Cliente (Modif --> agregar atributo limiteCredito)
      + clientes-mostrar.html (Modif --> agregar atributo limiteCredito)
      + MiniEjemplosApplication (Modif -->  cargarDatos)
-     + home.html (Modif --> agregar opción menú)
-     + ControladorEjJPQL (Modif --> se agrega método para manejar nueva opción de menú)
+     + home.html (Modif --> agregar nuevas opciones menu)
+     + ControladorEjJPQL (Modif --> se agrega métodos para manejar nuevas opciones de menú)
+     + ClienteDAO (Modif --> agregar buscarCategoriaFija() )
 
 [3/5/2020 FIN]
