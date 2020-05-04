@@ -55,4 +55,15 @@ Ver detalles en Evernote "UTDC013 - DS Spring 2020::Programar Mini-Ejemplos"
     + EjJPQL\clientes-mostrar.html
 4. Se completó funcionalidad punto menú "Listar Todos Clientes --> DAO - FindAll()" ==> listo para merge con DEV
 
-[2/5/2020 FIN]
+=====
+
+5. Se agrea funcionalidad para ejemplo getOne() (Buscar Cliente x ID), y Select (Buscar Cliente x Categoria Fija)
+     + Cliente (Modif --> agregar atributo limiteCredito)
+     + clientes-mostrar.html (Modif --> agregar atributo limiteCredito)
+     + MiniEjemplosApplication (Modif -->  cargarDatos)
+     + home.html (Modif --> agregar nuevas opciones menu)
+     + ControladorEjJPQL (Modif --> se agrega métodos para manejar nuevas opciones de menú)
+     + ClienteDAO (Modif --> agregar buscarCategoriaFija() )
+6. Se completó funcionalidad punto menú "Buscar x ID" y "x Categoria Fija"  ==> listo para merge con DEV
+
+[3/5/2020 FIN]

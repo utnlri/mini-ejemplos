@@ -27,20 +27,21 @@ public class MiniEjemplosApplication {
 
     // Modif #1 - Se agrega cargarDatos, creando contenido en la tabla Cliente
     @Bean
-	public CommandLineRunner cargarDatos() { 
+	public CommandLineRunner cargarDatos() {  // Modif #1 --> se agrega este método
 		return (args) -> {
 			// Esto código se ejecuta al inicializar la aplicación
 			
 			// Crear 3 objetos Cliente para guardar en el DAO
-			Cliente l_cte_1 = new Cliente("Juan","Perez","MIN"); 
-			Cliente l_cte_2 = new Cliente("Pedro","Marmol","MIN");
-			Cliente l_cte_3 = new Cliente("Inés","Roca","MAY");
+			Cliente l_cte_1 = new Cliente("Juan","Perez","MIN",25000.00); 
+			Cliente l_cte_2 = new Cliente("Pedro","Marmol","MIN",12000.00);
+            Cliente l_cte_3 = new Cliente("Inés","Roca","MAY",450000.00);
+            Cliente l_cte_4 = new Cliente("Javier","Plaza","MAY",980000.00);
 			
 			// Grabar los 3 objetos con el DAO
 			cDao.save(l_cte_1);
 			cDao.save(l_cte_2);
 			cDao.save(l_cte_3);			
-						
+			cDao.save(l_cte_4);			
 		};
     }
 
