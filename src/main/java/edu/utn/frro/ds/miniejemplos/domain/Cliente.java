@@ -1,3 +1,4 @@
+package edu.utn.frro.ds.miniejemplos.domain;
 
 // Cliente --> Clase Entity creada para ejemplos de JPQL
 // [LRI 3/5/2020 - UTDC013]

@@ -1,7 +1,10 @@
 package edu.utn.frro.ds.miniejemplos;
 
+import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.Bean;
+import org.springframework.beans.factory.annotation.Autowired; // @Autowired 
 
 //Clase MiniEjemplosApplication.java --> Clase inicial para levantar la aplicación de los Miniejemplos
 //Ver documentación global en ue_DOCUMENTACION.md dentro de este proyecto
@@ -10,6 +13,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 //
 // Modif #1 - Se agrega funcionalidad para Ejemplos JPQL
 //[UTDC013 - LRI 3/5/2020]
+
+import edu.utn.frro.ds.miniejemplos.domain.Cliente;
+import edu.utn.frro.ds.miniejemplos.dao.ClienteDAO;
 
 @SpringBootApplication
 public class MiniEjemplosApplication {
@@ -38,5 +44,6 @@ public class MiniEjemplosApplication {
 			
 						
 		};
+    }
 
 }
