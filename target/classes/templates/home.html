@@ -1,7 +1,9 @@
 <!DOCTYPE HTML>
 <!-- home.html ==> View del menu principal
     Esta view es el menu pcial desde donde se invocarán los Mini Ejemplos
-    [LRI 2/5/2020 - UTDC013]   -->
+    [LRI 2/5/2020 - UTDC013]  
+    Modif # 1 - Se agrega Opción Menú "buscar Cliente x ID"
+    [LRI 3/5/2020 - UTDC013] -->
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
 <title>Mini Ejemplos Spring - DS - UTN FRRo</title>
@@ -14,6 +16,12 @@
 	<p>
 		<a href="/EjJPQL/clientes_listarTodos" class="btn btn-default" role="button">Listar
 			Todos Clientes --> DAO - FindAll()</a>
+	</p>
+	</p>
+    <p>
+	<p>
+		<a href="/EjJPQL/clientes_buscarID" class="btn btn-default" role="button">Buscar 
+               Cliente x ID --> DAO - getOne()</a>
 	</p>
 	</p>
 	<p>
