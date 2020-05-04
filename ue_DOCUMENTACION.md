@@ -52,6 +52,7 @@ Ver detalles en Evernote "UTDC013 - DS Spring 2020::Programar Mini-Ejemplos"
     + home.html (Modif)
     + ControladorEjJPQL
     + MiniEjemplosApplication --> cargarDatos()
-    + clientes-mostrar.html
+    + EjJPQL\clientes-mostrar.html
+4. Se completó funcionalidad punto menú "Listar Todos Clientes --> DAO - FindAll()" ==> listo para merge con DEV
 
 [2/5/2020 FIN]
