@@ -64,5 +64,6 @@ Ver detalles en Evernote "UTDC013 - DS Spring 2020::Programar Mini-Ejemplos"
      + home.html (Modif --> agregar nuevas opciones menu)
      + ControladorEjJPQL (Modif --> se agrega métodos para manejar nuevas opciones de menú)
      + ClienteDAO (Modif --> agregar buscarCategoriaFija() )
+6. Se completó funcionalidad punto menú "Buscar x ID" y "x Categoria Fija"  ==> listo para merge con DEV
 
 [3/5/2020 FIN]
