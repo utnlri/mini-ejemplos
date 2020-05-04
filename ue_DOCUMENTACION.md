@@ -55,4 +55,9 @@ Ver detalles en Evernote "UTDC013 - DS Spring 2020::Programar Mini-Ejemplos"
     + EjJPQL\clientes-mostrar.html
 4. Se completó funcionalidad punto menú "Listar Todos Clientes --> DAO - FindAll()" ==> listo para merge con DEV
 
-[2/5/2020 FIN]
+=====
+
+5. Se agrea funcionalidad para ejemplo getOne(), y Selects
+     + Cliente (Modif --> agregar atributo limiteCredito)
+
+[3/5/2020 FIN]
