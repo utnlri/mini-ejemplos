@@ -40,7 +40,7 @@ public class ControladorEjJPQL {
         l_colClientes.add(l_cte); // Agrega el cliente a la colección que hay que pasarle a la vista clientes-mostrar
 
 
-        model.addAttribute("sintaxisConsultaUsada", " cDao.getOne((2)");	// Se coloca por si hay que hacer algún debug
+        model.addAttribute("sintaxisConsultaUsada", " cDao.getOne(2)");	// Se coloca por si hay que hacer algún debug
 		model.addAttribute("colClientes", l_colClientes); // Cargar en el modelo que se envía a la vista la colección de colClientess
 		return "EjJPQL/clientes-mostrar"; // nombre de la vista que se debe cargar --> cargará la página resources/templates/EjJPQL/clientes-mostrar.html
 	}
