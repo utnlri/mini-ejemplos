@@ -59,5 +59,6 @@ Ver detalles en Evernote "UTDC013 - DS Spring 2020::Programar Mini-Ejemplos"
 
 5. Se agrea funcionalidad para ejemplo getOne(), y Selects
      + Cliente (Modif --> agregar atributo limiteCredito)
+     + clientes-mostrar.html (Modif --> agregar atributo limiteCredito)
 
 [3/5/2020 FIN]

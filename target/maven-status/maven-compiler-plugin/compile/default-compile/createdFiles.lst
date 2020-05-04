@@ -1,5 +1,3 @@
-edu/utn/frro/ds/miniejemplos/controller/ControladorHome.class
-edu/utn/frro/ds/miniejemplos/MiniEjemplosApplication.class
-edu/utn/frro/ds/miniejemplos/controller/ControladorEjJPQL.class
-edu/utn/frro/ds/miniejemplos/dao/ClienteDAO.class
-edu/utn/frro/ds/miniejemplos/domain/Cliente.class
+application.properties
+templates/EjJPQL/clientes-mostrar.html
+templates/home.html
