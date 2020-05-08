@@ -67,3 +67,8 @@ Ver detalles en Evernote "UTDC013 - DS Spring 2020::Programar Mini-Ejemplos"
 6. Se completó funcionalidad punto menú "Buscar x ID" y "x Categoria Fija"  ==> listo para merge con DEV
 
 [3/5/2020 FIN]
+
+[8/5/2020 LRI] Tareas realizadas:
+1. Se crea branch DEV-02
+2. Se configura CHE para usar DEV-02
+
